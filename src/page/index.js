@@ -15,4 +15,4 @@
 // export * as NoPhysicsGame from './NoPhysicsGame/step4'
 
 
-export * as Pysics2DGame from './Physics2DGame/step8'
+export * as Pysics2DGame from './Physics2DGame/step9'

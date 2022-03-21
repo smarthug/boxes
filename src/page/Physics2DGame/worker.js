@@ -6,7 +6,7 @@ let array = null;
 
 let count = 0;
 
-let N = 300
+let N = 100
 
 const objectsToUpdate = []
 // const platforms = []
