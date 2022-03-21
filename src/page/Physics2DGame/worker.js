@@ -18,7 +18,7 @@ const platform2Material = new p2.Material();
 
 
 
-let elapsedtime = 0
+// let elapsedtime = 0
 
 onmessage = ({ data }) => {
     // console.log(data)
@@ -76,7 +76,6 @@ function init() {
 const step = (deltaTime) => {
     // console.log('works')
     world.step(1 / 60, deltaTime, 10)
-    elapsedtime += deltaTime
 
     for (let i = 0; i !== objectsToUpdate.length; i++) {
 

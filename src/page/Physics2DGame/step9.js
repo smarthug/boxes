@@ -122,12 +122,13 @@ export default function Main() {
         //     0.0000001,
         //     100
         // );
-        camera.position.y = 10
-        camera.position.z = 13
+        camera.position.y = 20
+        camera.position.z = 23
         scene.add(camera);
 
         // Controls
         controls = new OrbitControls(camera, canvas);
+        // controls.position.set(0,31,10)
         controls.target = new THREE.Vector3(0, 1, 0)
         controls.enableDamping = true;
 
