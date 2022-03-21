@@ -9,6 +9,10 @@
 // export * as shadowTest from './shadowTest'
 // export * as MyUniverse from './myUniverse'
 
-export * as Pysics2DGame from './Physics2DGame/step6_test'
+// export * as Pysics2DGame from './Physics2DGame/step6_test'
+
 // export * as Pysics2DGameFlying from './Physics2DGame/step7_flying'
 // export * as NoPhysicsGame from './NoPhysicsGame/step4'
+
+
+export * as Pysics2DGame from './Physics2DGame/step8'

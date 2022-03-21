@@ -3,11 +3,10 @@ import p2 from 'p2-es'
 let world = null
 
 let array = null;
-let flyingArray = [];
 
 let count = 0;
 
-let N = 30
+let N = 300
 
 const objectsToUpdate = []
 // const platforms = []
@@ -16,7 +15,6 @@ const objectsToUpdate = []
 const boxMaterial = new p2.Material()
 const platform1Material = new p2.Material();
 const platform2Material = new p2.Material();
-const groundMaterial = new p2.Material();
 
 
 
@@ -104,10 +102,10 @@ function createBox({ width, height, depth }, { x, y }) {
         position: [x, y]
     }),
         boxShape = new p2.Box({
-            // width: width + 0.02,
-            // height: height + 0.02,
-            width: width,
-            height: height,
+            width: width + 0.02,
+            height: height + 0.02,
+            // width: width,
+            // height: height,
             material: boxMaterial
         });
 
